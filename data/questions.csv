@@ -1,0 +1,226 @@
+title,excerpt,tags
+SQL SELECT with bad data,"If a column has bad data such as:
+
+ 45612345698
+ (456)123-7452
+ 125-145-9856
+Without fixing the data. Is it possible to have a sql query of 1251459856 which then would return the 3rd item in the ...",['sql']
+How to load .web extenstion files in React Native Web with Typescript,"In the case of react native web we have a possibility to use files with .web and .android extensions.
+Eg.
+
+myFile.web.js
+myFile.android.js
+then we can include them via
+
+import myFile from './myFile';...","['reactjs', 'typescript', 'react-native-web']"
+How to avoid change effective UID while executing files by ld-linux-x86-64.so.2,"Background:
+
+I have an executable c++ built program called UlimitUnlimiter. Currently, It produce some issues while executing on one of my server.
+
+./UlimitUnlimiter
+UlimitUnlimiter: /usr/lib64/...","['c++', 'c', 'linux', 'gcc']"
+When to use pkg_check_modules as a fallback to find<package>?,"I use find<package> to probe for packages (ZLIB, PNG, ...) and pkg_check_modules as a fallback if FindPackage fails to set up a superbuild with external dependencies:
+
+find_package(PkgConfig)
+
+##...",['cmake']
+How to retrieve metadata from firebase storage?,"info(String choice) async {
+    print(choice);
+    if (choice == 'Created on') {
+      print('hii');
+      StorageReference imageRef = storageRef.child(imageLocation);
+      await imageRef
+          ....","['flutter', 'dart', 'google-cloud-firestore', 'flutter-state']"
+Open layers - select features from shp layer,"I want to apply this code for Selecting features:
+
+var raster = new TileLayer({
+  source: new OSM()
+});
+
+var vector = new VectorLayer({
+  source: new VectorSource({
+    url: 'data/geojson/countries....","['javascript', 'openlayers']"
+Docker: run script : ERROR: Unable to lock database: Permission denied,"Hello I'm trying to run a script to just start my yarn dev after my postgres is connected:
+
+until psql -c '\l'; do
+  echo >&2 ""$(date +%Y%m%dt%H%M%S) Postgres is unavailable - sleeping""
+  sleep ...","['postgresql', 'docker', 'docker-compose']"
+Selecting only non null fields from the filter rows django,I have this query which are getting the required rows which i want but the problem is most fields/columns have null values I just want to get only those fields from these rows which have non null ...,"['sql', 'django', 'database', 'orm']"
+Getting max value of a rows of a particular column that satisfy multiple conditions using Pandas Dataframe/ Numpy,"I am relatively new to python and am currently stuck at a point where I need to calculate max based on certain conditions
+I have a dataframe that look like this
+   Week  Sales_Price    Hours       ...","['python-3.x', 'pandas', 'dataframe', 'max']"
+How to develop Chat functionality in react native app,"Want to develop Chat/Messaging module in react native app. in which user can send videos,pictures,voice messages and emojis. 
+
+as well as require functionality to delete messages and manage message ...","['android', 'ios', 'react-native', 'chat']"
+change the .exe file icon in pkg library,I have mean stack app to create executable file by using npm pkg it converted successfully(running too). after changing icon and version of .exe file using rcedit library or resource hacker  file is ...,['node.js']
+I am getting time limit error in the competition platform for my code,"I am trying to solve this problem in the online coding platform(question given below) with the below code. The competition platform shows time limit error.
+
+QUESTION:
+
+Tahir and Mamta are woking in a ...","['python', 'python-3.x', 'time', 'limit']"
+Magento : Creating XML Rpc method for a custom Module,I am creating a rpc method in the local customer module. But I am getting invalid path error. After hours of debugging also I am not able to figure out the missing portion. I was able to create in my ...,"['magento', 'magento-1.9', 'xml-rpc']"
+How to obtain the max. value of n-period for every row based on values of another columns in a dataframe?,"Let's say I have a df:
+
+idx   c1   
+A     1  
+B     7  
+C     8  
+D     6  
+E     5  
+F     6 
+G     9 
+H     8 
+I     0 
+J    10 
+What's the fastest way to obtain the highest value for n-periods for ...","['numpy', 'dataframe']"
+File upload field doesn't display (Django),"I have a django form, but it's not showing the ""upload file"" field when I render it on my website. What am I doing wrong? Ideally, the form has a question ID associated with it that's submitted ...","['python', 'django']"
+SQL SELECT with bad data,"If a column has bad data such as:
+
+ 45612345698
+ (456)123-7452
+ 125-145-9856
+Without fixing the data. Is it possible to have a sql query of 1251459856 which then would return the 3rd item in the ...",['sql']
+How to load .web extenstion files in React Native Web with Typescript,"In the case of react native web we have a possibility to use files with .web and .android extensions.
+Eg.
+
+myFile.web.js
+myFile.android.js
+then we can include them via
+
+import myFile from './myFile';...","['reactjs', 'typescript', 'react-native-web']"
+How to avoid change effective UID while executing files by ld-linux-x86-64.so.2,"Background:
+
+I have an executable c++ built program called UlimitUnlimiter. Currently, It produce some issues while executing on one of my server.
+
+./UlimitUnlimiter
+UlimitUnlimiter: /usr/lib64/...","['c++', 'c', 'linux', 'gcc']"
+When to use pkg_check_modules as a fallback to find<package>?,"I use find<package> to probe for packages (ZLIB, PNG, ...) and pkg_check_modules as a fallback if FindPackage fails to set up a superbuild with external dependencies:
+
+find_package(PkgConfig)
+
+##...",['cmake']
+How to retrieve metadata from firebase storage?,"info(String choice) async {
+    print(choice);
+    if (choice == 'Created on') {
+      print('hii');
+      StorageReference imageRef = storageRef.child(imageLocation);
+      await imageRef
+          ....","['flutter', 'dart', 'google-cloud-firestore', 'flutter-state']"
+Open layers - select features from shp layer,"I want to apply this code for Selecting features:
+
+var raster = new TileLayer({
+  source: new OSM()
+});
+
+var vector = new VectorLayer({
+  source: new VectorSource({
+    url: 'data/geojson/countries....","['javascript', 'openlayers']"
+Docker: run script : ERROR: Unable to lock database: Permission denied,"Hello I'm trying to run a script to just start my yarn dev after my postgres is connected:
+
+until psql -c '\l'; do
+  echo >&2 ""$(date +%Y%m%dt%H%M%S) Postgres is unavailable - sleeping""
+  sleep ...","['postgresql', 'docker', 'docker-compose']"
+Selecting only non null fields from the filter rows django,I have this query which are getting the required rows which i want but the problem is most fields/columns have null values I just want to get only those fields from these rows which have non null ...,"['sql', 'django', 'database', 'orm']"
+Getting max value of a rows of a particular column that satisfy multiple conditions using Pandas Dataframe/ Numpy,"I am relatively new to python and am currently stuck at a point where I need to calculate max based on certain conditions
+I have a dataframe that look like this
+   Week  Sales_Price    Hours       ...","['python-3.x', 'pandas', 'dataframe', 'max']"
+How to develop Chat functionality in react native app,"Want to develop Chat/Messaging module in react native app. in which user can send videos,pictures,voice messages and emojis. 
+
+as well as require functionality to delete messages and manage message ...","['android', 'ios', 'react-native', 'chat']"
+change the .exe file icon in pkg library,I have mean stack app to create executable file by using npm pkg it converted successfully(running too). after changing icon and version of .exe file using rcedit library or resource hacker  file is ...,['node.js']
+I am getting time limit error in the competition platform for my code,"I am trying to solve this problem in the online coding platform(question given below) with the below code. The competition platform shows time limit error.
+
+QUESTION:
+
+Tahir and Mamta are woking in a ...","['python', 'python-3.x', 'time', 'limit']"
+Magento : Creating XML Rpc method for a custom Module,I am creating a rpc method in the local customer module. But I am getting invalid path error. After hours of debugging also I am not able to figure out the missing portion. I was able to create in my ...,"['magento', 'magento-1.9', 'xml-rpc']"
+How to obtain the max. value of n-period for every row based on values of another columns in a dataframe?,"Let's say I have a df:
+
+idx   c1   
+A     1  
+B     7  
+C     8  
+D     6  
+E     5  
+F     6 
+G     9 
+H     8 
+I     0 
+J    10 
+What's the fastest way to obtain the highest value for n-periods for ...","['numpy', 'dataframe']"
+File upload field doesn't display (Django),"I have a django form, but it's not showing the ""upload file"" field when I render it on my website. What am I doing wrong? Ideally, the form has a question ID associated with it that's submitted ...","['python', 'django']"
+SQL SELECT with bad data,"If a column has bad data such as:
+
+ 45612345698
+ (456)123-7452
+ 125-145-9856
+Without fixing the data. Is it possible to have a sql query of 1251459856 which then would return the 3rd item in the ...",['sql']
+How to load .web extenstion files in React Native Web with Typescript,"In the case of react native web we have a possibility to use files with .web and .android extensions.
+Eg.
+
+myFile.web.js
+myFile.android.js
+then we can include them via
+
+import myFile from './myFile';...","['reactjs', 'typescript', 'react-native-web']"
+How to avoid change effective UID while executing files by ld-linux-x86-64.so.2,"Background:
+
+I have an executable c++ built program called UlimitUnlimiter. Currently, It produce some issues while executing on one of my server.
+
+./UlimitUnlimiter
+UlimitUnlimiter: /usr/lib64/...","['c++', 'c', 'linux', 'gcc']"
+When to use pkg_check_modules as a fallback to find<package>?,"I use find<package> to probe for packages (ZLIB, PNG, ...) and pkg_check_modules as a fallback if FindPackage fails to set up a superbuild with external dependencies:
+
+find_package(PkgConfig)
+
+##...",['cmake']
+How to retrieve metadata from firebase storage?,"info(String choice) async {
+    print(choice);
+    if (choice == 'Created on') {
+      print('hii');
+      StorageReference imageRef = storageRef.child(imageLocation);
+      await imageRef
+          ....","['flutter', 'dart', 'google-cloud-firestore', 'flutter-state']"
+Open layers - select features from shp layer,"I want to apply this code for Selecting features:
+
+var raster = new TileLayer({
+  source: new OSM()
+});
+
+var vector = new VectorLayer({
+  source: new VectorSource({
+    url: 'data/geojson/countries....","['javascript', 'openlayers']"
+Docker: run script : ERROR: Unable to lock database: Permission denied,"Hello I'm trying to run a script to just start my yarn dev after my postgres is connected:
+
+until psql -c '\l'; do
+  echo >&2 ""$(date +%Y%m%dt%H%M%S) Postgres is unavailable - sleeping""
+  sleep ...","['postgresql', 'docker', 'docker-compose']"
+Selecting only non null fields from the filter rows django,I have this query which are getting the required rows which i want but the problem is most fields/columns have null values I just want to get only those fields from these rows which have non null ...,"['sql', 'django', 'database', 'orm']"
+Getting max value of a rows of a particular column that satisfy multiple conditions using Pandas Dataframe/ Numpy,"I am relatively new to python and am currently stuck at a point where I need to calculate max based on certain conditions
+I have a dataframe that look like this
+   Week  Sales_Price    Hours       ...","['python-3.x', 'pandas', 'dataframe', 'max']"
+How to develop Chat functionality in react native app,"Want to develop Chat/Messaging module in react native app. in which user can send videos,pictures,voice messages and emojis. 
+
+as well as require functionality to delete messages and manage message ...","['android', 'ios', 'react-native', 'chat']"
+change the .exe file icon in pkg library,I have mean stack app to create executable file by using npm pkg it converted successfully(running too). after changing icon and version of .exe file using rcedit library or resource hacker  file is ...,['node.js']
+I am getting time limit error in the competition platform for my code,"I am trying to solve this problem in the online coding platform(question given below) with the below code. The competition platform shows time limit error.
+
+QUESTION:
+
+Tahir and Mamta are woking in a ...","['python', 'python-3.x', 'time', 'limit']"
+Magento : Creating XML Rpc method for a custom Module,I am creating a rpc method in the local customer module. But I am getting invalid path error. After hours of debugging also I am not able to figure out the missing portion. I was able to create in my ...,"['magento', 'magento-1.9', 'xml-rpc']"
+How to obtain the max. value of n-period for every row based on values of another columns in a dataframe?,"Let's say I have a df:
+
+idx   c1   
+A     1  
+B     7  
+C     8  
+D     6  
+E     5  
+F     6 
+G     9 
+H     8 
+I     0 
+J    10 
+What's the fastest way to obtain the highest value for n-periods for ...","['numpy', 'dataframe']"
+File upload field doesn't display (Django),"I have a django form, but it's not showing the ""upload file"" field when I render it on my website. What am I doing wrong? Ideally, the form has a question ID associated with it that's submitted ...","['python', 'django']"
